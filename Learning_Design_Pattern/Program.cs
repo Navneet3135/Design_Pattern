@@ -9,6 +9,8 @@ public class Program
     {
         var a = Singleton_pattern.GetInstance();
         var b = Singleton_pattern.GetInstance();
+
+        Pub_Sub_Pattern.IntializeEvents();  
     }
 
 }
