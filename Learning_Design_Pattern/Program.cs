@@ -1,29 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-public class Subscribe
-{
-    public string? _name { get; set; }
-    public string? _email { get; set; }
+using Learning_Design_Pattern;
 
-    public Subscribe(string name , string email)
+public class Program
+{
+
+    public static void Main(string[] args)
     {
-        _name = name;
-        _email = email;
+        var a = Singleton_pattern.GetInstance();
+        var b = Singleton_pattern.GetInstance();
     }
 
-
 }
 
-public class EmailNotification
-{
-    Subscribe? _subscribe;
-    public string? subscribed { get; set; }
-}
 
-public class SMSNotification
-{
-    Subscribe? _subscribe;
-    public string? messagedelived { get; set; }
-}
 
 

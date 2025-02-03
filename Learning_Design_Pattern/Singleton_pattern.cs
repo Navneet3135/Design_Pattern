@@ -25,7 +25,7 @@ namespace Learning_Design_Pattern
     public sealed class Singleton_pattern
     {
         public static  Singleton_pattern singleton_Pattern =null;
-        static Singleton_pattern()
+        private Singleton_pattern()
         {
             Console.WriteLine($"Single constructor invoked");
         }
@@ -33,10 +33,17 @@ namespace Learning_Design_Pattern
         public static Singleton_pattern GetInstance()
         {
             if (singleton_Pattern == null)
-                return new Singleton_pattern();
+            {
+                Console.WriteLine("Creating new instance");
+                singleton_Pattern =  new Singleton_pattern();
+            }
             else
-              return   singleton_Pattern;
-              
+            {
+                Console.WriteLine("Instanse is already created");
+            }
+            return singleton_Pattern;
+
+
         }
     }
 }
