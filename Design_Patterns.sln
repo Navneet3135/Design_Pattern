@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_Design_Pattern", "Learning_Design_Pattern\Learning_Design_Pattern.csproj", "{FE70C42E-C2EF-4EF9-94C9-F419071A101C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE70C42E-C2EF-4EF9-94C9-F419071A101C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE70C42E-C2EF-4EF9-94C9-F419071A101C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE70C42E-C2EF-4EF9-94C9-F419071A101C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE70C42E-C2EF-4EF9-94C9-F419071A101C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

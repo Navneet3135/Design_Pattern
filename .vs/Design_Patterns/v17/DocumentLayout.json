@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyPersonalRepo\\Design_Patterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE70C42E-C2EF-4EF9-94C9-F419071A101C}|Learning_Design_Pattern\\Learning_Design_Pattern.csproj|c:\\mypersonalrepo\\design_patterns\\learning_design_pattern\\singleton_pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE70C42E-C2EF-4EF9-94C9-F419071A101C}|Learning_Design_Pattern\\Learning_Design_Pattern.csproj|solutionrelative:learning_design_pattern\\singleton_pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE70C42E-C2EF-4EF9-94C9-F419071A101C}|Learning_Design_Pattern\\Learning_Design_Pattern.csproj|c:\\mypersonalrepo\\design_patterns\\learning_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE70C42E-C2EF-4EF9-94C9-F419071A101C}|Learning_Design_Pattern\\Learning_Design_Pattern.csproj|solutionrelative:learning_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4c6b520d-27f5-4fc2-ad24-9c3901aa6b49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Singleton_pattern.cs",
+              "DocumentMoniker": "C:\\MyPersonalRepo\\Design_Patterns\\Learning_Design_Pattern\\Singleton_pattern.cs",
+              "RelativeDocumentMoniker": "Learning_Design_Pattern\\Singleton_pattern.cs",
+              "ToolTip": "C:\\MyPersonalRepo\\Design_Patterns\\Learning_Design_Pattern\\Singleton_pattern.cs",
+              "RelativeToolTip": "Learning_Design_Pattern\\Singleton_pattern.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:16:39.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyPersonalRepo\\Design_Patterns\\Learning_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Learning_Design_Pattern\\Program.cs",
+              "ToolTip": "C:\\MyPersonalRepo\\Design_Patterns\\Learning_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Learning_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T09:38:07.896Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
