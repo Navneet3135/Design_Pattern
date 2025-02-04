@@ -37,7 +37,10 @@ namespace Learning_Design_Pattern
 
         }
     }
-
+    /// <summary>
+    /// In Publisher subscriber Model this is the basic class which is reponsible for adding subscriber 
+    /// removing and notifying the subscriber.
+    /// </summary>
     public class Event
     {
         public List<Subscriber> subscribers = new List<Subscriber>();
@@ -55,6 +58,9 @@ namespace Learning_Design_Pattern
             return subscriber;
         }
 
+        //This method is responsible for publishing the event and it is binding the ReciveMessage event
+        //if any event will be published then it will notify subsciber.This Method is Main link for 
+        //for pub-sub or observer design pattern.
         public void Publish(string message)
         {
             foreach(var sub in subscribers)
@@ -65,6 +71,9 @@ namespace Learning_Design_Pattern
         }
     }
 
+    /// <summary>
+    /// Subscriber class for reciving the events.
+    /// </summary>
     public class Subscriber
     {
         private readonly string _name;
