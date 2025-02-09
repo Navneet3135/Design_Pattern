@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Learning_Design_Pattern;
+using Learning_Design_Pattern.BehavioralDesignPattern;
+using Learning_Design_Pattern.CreationDesignPattern;
+using Learning_Design_Pattern.StructuralDesignPattern;
 
 public class Program
 {
@@ -17,7 +20,22 @@ public class Program
           //Events_Delegates.Intialize();
 
         //--------------------------------------------------------------
-        Delegates.Intialize();
+         //Delegates.Intialize();
+
+        //-----------------------------------------
+       // MainMethodFactory.Initialize();
+
+        //-------------------------------------------
+
+        //FacadePattern facadePattern = new FacadePattern();
+        //facadePattern.IntializeFacade();
+
+        //--------------------------------------
+
+        //AdapterPattern.InitializeAdapter();
+        //-----------------------------------------
+        StrategyPattern.InitializeStrategy();
+
     }
 
 }
